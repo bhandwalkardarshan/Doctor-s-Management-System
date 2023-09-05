@@ -27,6 +27,35 @@
           </ul>
         </div>
     </nav>
+    <div class="container mt-4">
+      <!-- Filter by Specialization -->
+      <div class="form-group">
+          <label for="specializationFilter">Filter by Specialization:</label>
+          <select class="form-control" id="specializationFilter">
+              <option value="All">All</option>
+              <option value="Cardiologist">Cardiologist</option>
+              <option value="Dermatologist">Dermatologist</option>
+              <option value="Pediatrician">Pediatrician</option>
+              <option value="Psychiatrist">Psychiatrist</option>
+          </select>
+      </div>
+
+      <!-- Search by Doctor's Name -->
+      <div class="form-group">
+          <label for="searchInput">Search by Doctor's Name:</label>
+          <input type="text" class="form-control" id="searchInput" placeholder="Enter doctor's name">
+      </div>
+
+      <!-- Sort by Date Button -->
+      
+      <label for="Sort">Sort by Date:</label>
+      <select class="form-control" id="sortDate">
+          <option value="All">All</option>
+          <option value="asc">Ascending</option>
+          <option value="desc">Descending</option>
+      </select>
+  </div>
+  <br>
     <div id="cardsContainer"></div>
     <div id="pagination">
       <button id="prevPage">Previous Page</button>

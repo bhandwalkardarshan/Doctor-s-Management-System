@@ -3,8 +3,47 @@ let baseUrl = `http://localhost:3000`
 let doctorList=[];
 let currentPage = 1;
 const cardsPerPage = 4;
+// Implement filtering, searching, and sorting functionality
+document.getElementById('specializationFilter').addEventListener('change', filterAppointmentsBySpecialization);
+document.getElementById('searchInput').addEventListener('input', searchAppointments);
+document.getElementById('sortDate').addEventListener('change', sortAppointmentsByDate);
 
 fetchData();
+
+function filterAppointmentsBySpecialization() {
+    const specializationFilter = document.getElementById('specializationFilter').value;
+    // Check if "All" is selected
+    if (specializationFilter === 'All') {
+        // Show all appointments without filtering
+        renderDoctorCards(doctorList);
+    } else {
+        // Apply the filter
+        const filteredAppointments = doctorList.filter(appointment => {
+        return appointment.specialization === specializationFilter;
+        });
+        renderDoctorCards(filteredAppointments);
+    }
+}
+  
+  function searchAppointments() {
+    const searchInput = document.getElementById('searchInput').value.toLowerCase();
+    const filteredAppointments = doctorList.filter(appointment => {
+      return appointment.doctorName.toLowerCase().includes(searchInput);
+    });
+    renderDoctorCards(filteredAppointments);
+  }
+  
+  function sortAppointmentsByDate() {
+    const sortingType = document.getElementById('sortDate').value;
+    if(sortingType=="desc"){
+        doctorList.sort((a, b) => new Date(b.date) - new Date(a.date));
+        renderDoctorCards(doctorList);
+    }else{
+        doctorList.sort((a, b) => new Date(a.date) - new Date(b.date));
+        renderDoctorCards(doctorList);
+    }
+    
+  }
 
 function fetchData(){
     console.log("data fetched")
