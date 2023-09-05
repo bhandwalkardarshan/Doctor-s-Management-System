@@ -70,10 +70,6 @@ Ensure that your JSON data file (db.json) follows the appropriate structure requ
 
 - Your home page should have a **login and register form**, which the user should be able to toggle between login and register, and the corresponding form should be shown.
 
-![                                                   Reference Image for Login and Register Toggle](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9e7341f3-c012-46c8-934c-a4784559e8bf/Login_Signup.png)
-
-                                                   Reference Image for Login and Register Toggle
-
 - The Sign Up form should have the following fields
     - Username
     - Email
@@ -147,10 +143,6 @@ Ensure that your JSON data file (db.json) follows the appropriate structure requ
 
 - Fetch all the appointments posted from the JSON server and list them in the form of cards.
 - The UI should look like
-
-![                                                                             UI Reference Image](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f3dddd88-5054-43fc-a28b-d1d2105ca525/Masai_Hospital.png)
-
-                                                                             UI Reference Image
 
 - Your app should have the following functionalities.
     - **Filter by Specialization** (**Cardiologist, Dermatologist, Pediatrician, Psychiatrist**).
