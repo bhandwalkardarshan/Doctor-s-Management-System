@@ -14,14 +14,11 @@ To get started with this project, follow these steps:
 
 Clone this repository to your local machine:
 
-bash
-Copy code
 git clone <repository-url>
 Navigate to the project directory:
 
-bash
-Copy code
 cd masai-hospital-appointment-booking
+
 Usage
 After cloning the repository, follow these instructions to run the project:
 
@@ -31,16 +28,14 @@ Set up the JSON Server:
 
 Install JSON Server globally if you haven't already:
 
-bash
-Copy code
 npm install -g json-server
+
 Create a JSON file for your database (e.g., db.json) with initial data structures for users, appointments, and doctors.
 
 Start JSON Server using your JSON file:
 
-bash
-Copy code
 json-server --watch db.json
+
 JSON Server will now provide a RESTful API based on your data.
 
 Open the index.html file in your web browser to access the Masai Hospital web application.
