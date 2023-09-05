@@ -1,0 +1,61 @@
+
+/* Styles for center alignment */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Styles for responsiveness */
+@media (max-width: 768px) {
+    .card {
+        max-width: 100%;
+    }
+}
+
+/* Pagination styles */
+#pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#prevPage,
+#nextPage {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#prevPage:hover,
+#nextPage:hover {
+    background-color: #0056b3;
+}

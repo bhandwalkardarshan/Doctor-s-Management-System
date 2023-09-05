@@ -1,0 +1,107 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "patient1",
+      "email": "patient1@example.com",
+      "password": "password1",
+      "isDoctor": false
+    },
+    {
+      "id": 2,
+      "username": "doctor1",
+      "email": "doctor1@example.com",
+      "password": "password1",
+      "isDoctor": true
+    },
+    {
+      "id": 3,
+      "username": "patient2",
+      "email": "patient2@example.com",
+      "password": "password2",
+      "isDoctor": false
+    },
+    {
+      "id": 4,
+      "username": "patient3",
+      "email": "patient3@example.com",
+      "password": "password3",
+      "isDoctor": false
+    },
+    {
+      "username": "dars",
+      "email": "dars@gmail.com",
+      "password": "dars",
+      "isDoctor": true,
+      "id": 5
+    }
+  ],
+  "appointments": [
+    {
+      "name": "Jane Doe Aka",
+      "image": "https://example.com/doctor-image.jpg",
+      "specialization": "Dermatologist",
+      "experience": "10",
+      "location": "Los Angeles",
+      "date": "2023-09-07",
+      "slots": 2,
+      "fee": "150",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Mark Johnson",
+      "image": "https://example.com/doctor-image.jpg",
+      "specialization": "Pediatrician",
+      "experience": 5,
+      "location": "Chicago",
+      "date": "2023-04-06",
+      "slots": 0,
+      "fee": 100
+    },
+    {
+      "name": "Jane Doe Aka",
+      "image": "https://example.com/doctor-image.jpg",
+      "specialization": "Dermatologist",
+      "experience": "10",
+      "location": "Los Angeles",
+      "date": "2023-09-07",
+      "slots": 3,
+      "fee": "150",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Mark Johnson",
+      "image": "https://example.com/doctor-image.jpg",
+      "specialization": "Pediatrician",
+      "experience": 5,
+      "location": "Chicago",
+      "date": "2023-04-06",
+      "slots": 0,
+      "fee": 100
+    },
+    {
+      "name": "Jane Doe Aka",
+      "image": "https://example.com/doctor-image.jpg",
+      "specialization": "Dermatologist",
+      "experience": "10",
+      "location": "Los Angeles",
+      "date": "2023-09-07",
+      "slots": 4,
+      "fee": "150",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "name": "Mark Johnson",
+      "image": "https://example.com/doctor-image.jpg",
+      "specialization": "Pediatrician",
+      "experience": 5,
+      "location": "Chicago",
+      "date": "2023-04-06",
+      "slots": 1,
+      "fee": 100
+    }
+  ]
+}
