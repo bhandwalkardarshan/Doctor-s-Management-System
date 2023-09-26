@@ -29,11 +29,18 @@
       "isDoctor": false
     },
     {
+      "id": 5,
       "username": "dars",
       "email": "dars@gmail.com",
       "password": "dars",
-      "isDoctor": true,
-      "id": 5
+      "isDoctor": true
+    },
+    {
+      "id": 6,
+      "username": "patient4",
+      "email": "patient4@example.com",
+      "password": "password4",
+      "isDoctor": false
     }
   ],
   "appointments": [
@@ -102,6 +109,72 @@
       "date": "2023-04-06",
       "slots": 1,
       "fee": 100
+    },
+    {
+      "name": "ganga",
+      "image": "https://example.com/doctor-image.jpg",
+      "specialization": "Dermatologist",
+      "experience": "6",
+      "location": "Delhi",
+      "date": "2023-10-23",
+      "slots": "6",
+      "fee": "10",
+      "id": 7
+    },
+    {
+      "name": "gangadhar",
+      "image": "https://example.com/doctor-image.jpg",
+      "specialization": "Pediatrician",
+      "experience": "3",
+      "location": "Los Angeles",
+      "date": "2023-09-27",
+      "slots": "3",
+      "fee": "20",
+      "id": 8
+    },
+    {
+      "name": "gangadhar",
+      "image": "https://example.com/doctor-image.jpg",
+      "specialization": "Pediatrician",
+      "experience": "3",
+      "location": "Los Angeles",
+      "date": "2023-09-27",
+      "slots": "3",
+      "fee": "20",
+      "id": 9
+    },
+    {
+      "name": "sdf",
+      "image": "https://example.com/doctor-image.jpg",
+      "specialization": "Dermatologist",
+      "experience": "22",
+      "location": "Pune",
+      "date": "2023-09-29",
+      "slots": "2",
+      "fee": "12",
+      "id": 10
+    },
+    {
+      "name": "Dr. Sarah Johnson",
+      "image": "https://example.com/doctor-image.jpg",
+      "specialization": "Cardiologist",
+      "experience": "15",
+      "location": "New York",
+      "date": "2023-11-15",
+      "slots": "5",
+      "fee": "200",
+      "id": 11
+    },
+    {
+      "name": "Dr. Lisa Smith",
+      "image": "https://example.com/doctor-image.jpg",
+      "specialization": "Psychiatrist",
+      "experience": "8",
+      "location": "San Francisco",
+      "date": "2023-10-10",
+      "slots": "4",
+      "fee": "180",
+      "id": 12
     }
   ]
 }

@@ -27,6 +27,7 @@ document.getElementById("appointmentForm").addEventListener("submit", function(e
     .then(data => {
         console.log(data)
         alert('Data has been stored');
+        fetchData()
     });
 });
 
